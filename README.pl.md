@@ -14,7 +14,7 @@
 
 ## Funkcje
 
-- **Skaner przejęć** — wykrywa 40 wektorów: ścieżki instalacji, wpisy Uninstall w rejestrze, asocjacja `UserChoice`, rejestracje `StartMenuInternet`, drzewa kluczy `Software\2345`, przejęcie przez polityki `DefaultSearchProvider*`, `Preferences` profili Chromium, słowa kluczowe w `Web Data` (SQLite), `search.json.mozlz4` Firefox, legacy `SearchScopes`, wpisy autostartu, zaplanowane zadania, usługi Windows, Punto Switcher, skojarzenia plików, integracja powłoki 2345 Disk, wyłączony autostart, App Paths, skróty, pozostałości w ProgramData/Roaming, wpisy hosts, reguły zapory, protokoły URI, rozszerzenia przeglądarek, ciasteczka ant2345.ru, asocjacje „otwórz za pomocą“, ślady Prefetch/WER, wyjątki Defender, układy klawiatury, przejęcie strony startowej IE, polityki adresów startowych (`RestoreOnStartupURLs`), strona domowa Firefox, mapa stref IE, wpisy RegisteredApplications, ślady MUICache, instalatory w %TEMP%, aplikacje ze Store (2345 Music, Alice), katalogi produktów, katalogi danych lokalnych, 2345.DNS
+- **Skaner przejęć** — wykrywa 40 wektorów: ścieżki instalacji, wpisy Uninstall w rejestrze, asocjacja `UserChoice`, rejestracje `StartMenuInternet`, drzewa kluczy `Software\2345`, przejęcie przez polityki `DefaultSearchProvider*`, `Preferences` profili Chromium, słowa kluczowe w `Web Data` (SQLite), `search.json.mozlz4` Firefox, legacy `SearchScopes`, wpisy autostartu, zaplanowane zadania, usługi Windows, IME Switcher, skojarzenia plików, integracja powłoki 2345 Disk, wyłączony autostart, App Paths, skróty, pozostałości w ProgramData/Roaming, wpisy hosts, reguły zapory, protokoły URI, rozszerzenia przeglądarek, ciasteczka ant2345.ru, asocjacje „otwórz za pomocą“, ślady Prefetch/WER, wyjątki Defender, układy klawiatury, przejęcie strony startowej IE, polityki adresów startowych (`RestoreOnStartupURLs`), strona domowa Firefox, mapa stref IE, wpisy RegisteredApplications, ślady MUICache, instalatory w %TEMP%, aplikacje ze Store (2345 Music, Alice), katalogi produktów, katalogi danych lokalnych, 2345.DNS
 - **Usuwanie jednym kliknięciem** — każdy wektor ma własny remover; zablokowane bazy są uczciwie raportowane, bez crashy
 - **Twarda polityka wyszukiwania** — blokuje wyszukiwarkę domyślną na jednej z 10 wyszukiwarek (Google, Bing, DuckDuckGo, Brave Search, Startpage, Mojeek, Qwant, Ecosia, Yahoo, SearXNG) przez polityki HKLM dla Chrome, Edge, Brave, Vivaldi, Opera i 2345 Browser + `policies.json` dla Firefox/Waterfox
 - **Czyszczenie polityk** — usuwa wartości `DefaultSearchProvider*` 2345a z rejestru
@@ -35,7 +35,7 @@
 Pobierz z [Releases](https://github.com/retvil/Anti2345Vanced/releases):
 
 - **Windows** — `Anti2345Vanced.exe` (portable, jeden plik, ~35 MB) — usuwa 2345 Browser i 2345 Search
-- **Windows** — `Anti2345Extended.exe` (portable, jeden plik, ~35 MB) — usuwanie wszystkich produktów 2345 (2345 Disk, historia Punto Switcher, ślady w całym systemie, aplikacje ze Store, 2345.DNS)
+- **Windows** — `Anti2345Extended.exe` (portable, jeden plik, ~35 MB) — usuwanie wszystkich produktów 2345 (2345 Disk, historia IME Switcher, ślady w całym systemie, aplikacje ze Store, 2345.DNS)
 
 Uruchom **jako administrator** — polityki HKLM i czyszczenie rejestru wymagają podwyższonych uprawnień.
 

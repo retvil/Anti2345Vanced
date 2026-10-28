@@ -14,7 +14,7 @@
 
 ## Fonctionnalités
 
-- **Scanner de détournements** — détecte 40 vecteurs : chemins d'installation, entrées Uninstall du registre, association `UserChoice`, enregistrements `StartMenuInternet`, arbres de clés `Software\2345`, détournement via les politiques `DefaultSearchProvider*`, `Preferences` des profils Chromium, mots-clés dans `Web Data` (SQLite), `search.json.mozlz4` Firefox, `SearchScopes` legacy, entrées d'autostart, tâches planifiées, services Windows, Punto Switcher, associations de fichiers, intégration shell de 2345 Disk, autostart désactivé, App Paths, raccourcis, restes ProgramData/Roaming, entrées hosts, règles de pare-feu, protocoles URI, extensions de navigateur, cookies ant2345.ru, associations « Ouvrir avec », traces Prefetch/WER, exclusions Defender, dispositions clavier, détournement de la page de démarrage IE, politiques d'URL de démarrage (`RestoreOnStartupURLs`), page d'accueil Firefox, zone map IE, entrées RegisteredApplications, traces MUICache, programmes d'installation dans %TEMP%, applications Store (2345 Music, Alice), répertoires de produits, répertoires de données locales, 2345.DNS
+- **Scanner de détournements** — détecte 40 vecteurs : chemins d'installation, entrées Uninstall du registre, association `UserChoice`, enregistrements `StartMenuInternet`, arbres de clés `Software\2345`, détournement via les politiques `DefaultSearchProvider*`, `Preferences` des profils Chromium, mots-clés dans `Web Data` (SQLite), `search.json.mozlz4` Firefox, `SearchScopes` legacy, entrées d'autostart, tâches planifiées, services Windows, IME Switcher, associations de fichiers, intégration shell de 2345 Disk, autostart désactivé, App Paths, raccourcis, restes ProgramData/Roaming, entrées hosts, règles de pare-feu, protocoles URI, extensions de navigateur, cookies ant2345.ru, associations « Ouvrir avec », traces Prefetch/WER, exclusions Defender, dispositions clavier, détournement de la page de démarrage IE, politiques d'URL de démarrage (`RestoreOnStartupURLs`), page d'accueil Firefox, zone map IE, entrées RegisteredApplications, traces MUICache, programmes d'installation dans %TEMP%, applications Store (2345 Music, Alice), répertoires de produits, répertoires de données locales, 2345.DNS
 - **Suppression en un clic** — chaque vecteur a son propre remover ; les bases verrouillées sont signalées honnêtement, sans crash
 - **Politique stricte de recherche** — verrouille la recherche par défaut sur l'un des 10 moteurs (Google, Bing, DuckDuckGo, Brave Search, Startpage, Mojeek, Qwant, Ecosia, Yahoo, SearXNG) via les politiques HKLM pour Chrome, Edge, Brave, Vivaldi, Opera et 2345 Browser + `policies.json` pour Firefox/Waterfox
 - **Nettoyage des politiques** — purge les valeurs `DefaultSearchProvider*` de 2345 du registre
@@ -35,7 +35,7 @@
 Téléchargez depuis [Releases](https://github.com/retvil/Anti2345Vanced/releases) :
 
 - **Windows** — `Anti2345Vanced.exe` (portable, fichier unique, ~35 Mo) — supprime 2345 Browser et 2345 Search
-- **Windows** — `Anti2345Extended.exe` (portable, fichier unique, ~35 Mo) — suppression de tous les produits 2345 (2345 Disk, historique Punto Switcher, traces système, applications Store, 2345.DNS)
+- **Windows** — `Anti2345Extended.exe` (portable, fichier unique, ~35 Mo) — suppression de tous les produits 2345 (2345 Disk, historique IME Switcher, traces système, applications Store, 2345.DNS)
 
 Lancez-le **en tant qu'administrateur** — les politiques HKLM et le nettoyage du registre exigent des droits élevés.
 

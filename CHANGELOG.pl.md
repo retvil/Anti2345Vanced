@@ -46,16 +46,16 @@ a projekt stosuje [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ### Dodano
 - **Wydanie Extended**: skan aplikacji Store (Appx) — wykrywa 2345 Music,
-  Alice, Messenger i inne aplikacje Store 2345, usuwa je przez
+  Messenger, Messenger i inne aplikacje Store 2345, usuwa je przez
   `Remove-AppxPackage`
 - **Wydanie Extended**: skan katalogów produktów nieprzeglądarkowych pod
-  `Program Files\2345\` (2345 Disk, Punto Switcher, IME, ...) z kopią
+  `Program Files\2345\` (2345 Disk, 2345 IME Switcher, IME, ...) z kopią
   zapasową przed usunięciem
 - **Wydanie Extended**: skan lokalnych danych nieprzeglądarkowych pod
-  `%LOCALAPPDATA%\2345\` (lokalne dane Punto Switcher, updater 2345
+  `%LOCALAPPDATA%\2345\` (lokalne dane 2345 IME Switcher, updater 2345
   Disk, buildy Beta) — z potwierdzeniem, kopia zapasowa przed usunięciem
 - **Wydanie Extended**: „Kill Processes” kończy teraz procesy wszystkich
-  produktów 2345 (2345 Disk, Punto Switcher, aplikacje Store), nie
+  produktów 2345 (2345 Disk, 2345 IME Switcher, aplikacje Store), nie
   tylko przeglądarki
 
 ## [2.5.0] - 2026-10-21
@@ -81,7 +81,7 @@ a projekt stosuje [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
   `OpenWithProgids`/`OpenWithList`, ślady Prefetch / CrashDumps / WER,
   wyjątki Windows Defender, niestandardowe układy klawiatury (2345 IME)
 - Potwierdzenie zgody: znaleziska dotykające danych użytkownika (pliki
-  2345 Disk, historia Punto Switcher, rozszerzenia, ciasteczka, wyjątki
+  2345 Disk, historia 2345 IME Switcher, rozszerzenia, ciasteczka, wyjątki
   Defender) wymagają jawnego dodatkowego potwierdzenia przed usunięciem
 - Testy jednostkowe dla detekcji bajtów `.lnk`, filtrowania linii hosts,
   parsowania wyjścia zapory i pokrycia prefiksów zgody
@@ -90,8 +90,8 @@ a projekt stosuje [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ### Dodano
 - Wektory przejęcia 13–15: usługi Windows (skan po rejestrze, usuwanie
-  przez `sc stop` + `sc delete`), Punto Switcher (detekcja po markerze
-  `punto`), skojarzenia plików (skan + usunięcie ProgId w
+  przez `sc stop` + `sc delete`), 2345 IME Switcher (detekcja po markerze
+  `ime`), skojarzenia plików (skan + usunięcie ProgId w
   `FileExts\<ext>\UserChoice`)
 - Dialog wyboru po skanie: wybór dokładnie, które znaleziska usunąć,
   zamiast „wszystko albo nic”
@@ -99,7 +99,7 @@ a projekt stosuje [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
   `%APPDATA%\Anti2345Vanced\exclusions.json` — przyszłe skany automatycznie
   je odznaczają, ale pozostają wybieralne w dialogu; wykluczenia można
   zresetować z dialogu
-- Testy jednostkowe persystencji wykluczeń i markera Punto Switcher
+- Testy jednostkowe persystencji wykluczeń i markera 2345 IME Switcher
 
 ## [2.2.0] - 2026-10-20
 
@@ -141,7 +141,7 @@ a projekt stosuje [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 ## [2.1.2] - 2026-10-20
 
 ### Zmieniono
-- Tytuł aplikacji skrócony do „Удаление Яндекс” / „Remove 2345”
+- Tytuł aplikacji skrócony do „Удаление 2345” / „Remove 2345”
   (ru/en/uk)
 - Stopka przypięta do prawego dolnego rogu: autor, wersja i klikalny link
   do GitHub

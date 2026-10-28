@@ -2,19 +2,19 @@
 
 [![Release](https://img.shields.io/github/v/release/retvil/Anti2345Vanced?sort=date)](https://github.com/retvil/Anti2345Vanced/releases) [![Platform Windows](https://img.shields.io/badge/platform-Windows-blue)](https://github.com/retvil/Anti2345Vanced/releases) [![Python](https://img.shields.io/badge/python-3.10%2B-blue)](https://www.python.org/)
 
-**Remove 2345 Browser completely and lock your default search against hijacking — 40 detection vectors, 10 search engines, 10 UI languages.**
+**Remove 2345 Browser completely and lock your default search against hijacking — 28 detection vectors (VANCED) / 39 detection vectors (EXTENDED), 10 search engines, 10 UI languages.**
 
 **🇬🇧 English** | [🇷🇺 Русский](README.ru.md) | [🇺🇦 Українська](README.uk.md) | [🇰🇿 Қазақша](README.kk.md) | [🇩🇪 Deutsch](README.de.md) | [🇫🇷 Français](README.fr.md) | [🇪🇸 Español](README.es.md) | [🇵🇱 Polski](README.pl.md) | [🇹🇷 Türkçe](README.tr.md) | [🇨🇳 中文](README.zh.md)
 
 ## What is this?
 
-2345 doesn't just install a browser — it quietly registers itself as the default search and browser through forty different system mechanisms: registry associations, enterprise policies, per-profile browser settings, even search-engine databases inside Chromium profiles. Removing the browser alone doesn't undo all of that.
+2345 doesn't just install a browser — it quietly registers itself as the default search and browser through multiple system mechanisms: registry associations, enterprise policies, per-profile browser settings, even search-engine databases inside Chromium profiles. Removing the browser alone doesn't undo all of that.
 
-**Anti2345 Vanced** (a fork of [TheCawa/Anti2345](https://github.com/TheCawa/Anti2345)) finds **all 40 hijack vectors**, removes them with one click, and then **hard-locks your default search** to an engine of your choice via Windows enterprise policies — so nothing can silently take it back.
+**Anti2345 Vanced** (a fork of [TheCawa/Anti2345](https://github.com/TheCawa/Anti2345)) finds **all hijack vectors** (28 in VANCED, 39 in EXTENDED), removes them with one click, and then **hard-locks your default search** to an engine of your choice via Windows enterprise policies — so nothing can silently take it back.
 
 ## Features
 
-- **Hijack scanner** — detects 40 vectors: install paths, uninstall registry entries, `UserChoice` default-browser association, `StartMenuInternet` registrations, `Software\2345` key trees, `DefaultSearchProvider*` policy hijack, Chromium profile `Preferences`, `Web Data` SQLite keywords, Firefox `search.json.mozlz4`, legacy `SearchScopes`, autostart entries, scheduled tasks, Windows services, Punto Switcher, file associations, 2345 Disk shell integration, disabled autostart, App Paths, shortcuts, ProgramData/Roaming leftovers, hosts entries, firewall rules, URI protocols, browser extensions, ant2345.ru cookies, open-with associations, Prefetch/WER traces, Defender exclusions, keyboard layouts, IE Start Page hijack, startup-URL policies (`RestoreOnStartupURLs`), Firefox homepage, IE zone map, RegisteredApplications entries, MUICache traces, %TEMP% installers, Store apps (2345 Music, Alice), product directories, local data directories, 2345.DNS
+- **Hijack scanner** — detects 28 vectors (VANCED) / 39 vectors (EXTENDED): install paths, uninstall registry entries, `UserChoice` default-browser association, `StartMenuInternet` registrations, `Software\2345` key trees, `DefaultSearchProvider*` policy hijack, Chromium profile `Preferences`, `Web Data` SQLite keywords, Firefox `search.json.mozlz4`, legacy `SearchScopes`, autostart entries, scheduled tasks, Windows services, IME Switcher, file associations, 2345 Disk shell integration, disabled autostart, App Paths, shortcuts, ProgramData/Roaming leftovers, hosts entries, firewall rules, URI protocols, browser extensions, ant2345.ru cookies, open-with associations, Prefetch/WER traces, Defender exclusions, keyboard layouts, IE Start Page hijack, startup-URL policies (`RestoreOnStartupURLs`), Firefox homepage, IE zone map, RegisteredApplications entries, MUICache traces, %TEMP% installers, Store apps (2345 Music, Alice), product directories, local data directories, 2345.DNS
 - **One-click removal** — every detected vector is removed with a dedicated remover; locked databases are reported, never crash
 - **Hard search policy** — locks the default search to one of 10 engines (Google, Bing, DuckDuckGo, Brave Search, Startpage, Mojeek, Qwant, Ecosia, Yahoo, SearXNG) via HKLM policies for Chrome, Edge, Brave, Vivaldi, Opera and 2345 Browser, plus `policies.json` for Firefox/Waterfox
 - **Policy cleanup** — strips 2345 `DefaultSearchProvider*` values from the registry
@@ -35,7 +35,7 @@
 Download from [Releases](https://github.com/retvil/Anti2345Vanced/releases):
 
 - **Windows** — `Anti2345Vanced.exe` (portable, single file, ~35 MB) — removes 2345 Browser and 2345 Search
-- **Windows** — `Anti2345Extended.exe` (portable, single file, ~35 MB) — removal of every 2345 product (2345 Disk, Punto Switcher history, system-wide traces, Store apps, 2345.DNS)
+- **Windows** — `Anti2345Extended.exe` (portable, single file, ~35 MB) — removal of every 2345 product (2345 Disk, IME Switcher history, system-wide traces, Store apps, 2345.DNS)
 
 Run it **as administrator** — HKLM policies and registry cleanup require elevated rights.
 

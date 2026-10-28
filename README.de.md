@@ -14,7 +14,7 @@
 
 ## Funktionen
 
-- **Hijack-Scanner** — erkennt 40 Vektoren: Installationspfade, Uninstall-Registry-Einträge, `UserChoice`-Assoziation, `StartMenuInternet`-Registrierungen, `Software\2345`-Schlüsselbäume, Hijack über `DefaultSearchProvider*`-Richtlinien, Chromium-Profil-`Preferences`, Schlüsselwörter in `Web Data` (SQLite), Firefox `search.json.mozlz4`, Legacy-`SearchScopes`, Autostart-Einträge, geplante Aufgaben, Windows-Dienste, Punto Switcher, Dateizuordnungen, 2345-Disk-Shell-Integration, deaktivierter Autostart, App Paths, Verknüpfungen, ProgramData/Roaming-Reste, hosts-Einträge, Firewall-Regeln, URI-Protokolle, Browser-Erweiterungen, ant2345.ru-Cookies, „Öffnen mit“-Zuordnungen, Prefetch/WER-Spuren, Defender-Ausschlüsse, Tastaturlayouts, IE-Startseiten-Hijack, Richtlinien für Start-URLs (`RestoreOnStartupURLs`), Firefox-Startseite, IE-Zonemap, RegisteredApplications-Einträge, MUICache-Spuren, %TEMP%-Installer, Store-Apps (2345 Music, Alice), Produktverzeichnisse, lokale Datenverzeichnisse, 2345.DNS
+- **Hijack-Scanner** — erkennt 40 Vektoren: Installationspfade, Uninstall-Registry-Einträge, `UserChoice`-Assoziation, `StartMenuInternet`-Registrierungen, `Software\2345`-Schlüsselbäume, Hijack über `DefaultSearchProvider*`-Richtlinien, Chromium-Profil-`Preferences`, Schlüsselwörter in `Web Data` (SQLite), Firefox `search.json.mozlz4`, Legacy-`SearchScopes`, Autostart-Einträge, geplante Aufgaben, Windows-Dienste, IME Switcher, Dateizuordnungen, 2345-Disk-Shell-Integration, deaktivierter Autostart, App Paths, Verknüpfungen, ProgramData/Roaming-Reste, hosts-Einträge, Firewall-Regeln, URI-Protokolle, Browser-Erweiterungen, ant2345.ru-Cookies, „Öffnen mit“-Zuordnungen, Prefetch/WER-Spuren, Defender-Ausschlüsse, Tastaturlayouts, IE-Startseiten-Hijack, Richtlinien für Start-URLs (`RestoreOnStartupURLs`), Firefox-Startseite, IE-Zonemap, RegisteredApplications-Einträge, MUICache-Spuren, %TEMP%-Installer, Store-Apps (2345 Music, Alice), Produktverzeichnisse, lokale Datenverzeichnisse, 2345.DNS
 - **Entfernung mit einem Klick** — jeder Vektor hat seinen eigenen Remover; gesperrte Datenbanken werden ehrlich gemeldet, ohne Abstürze
 - **Harte Suchrichtlinie** — verriegelt die Standardsuche auf eine von 10 Suchmaschinen (Google, Bing, DuckDuckGo, Brave Search, Startpage, Mojeek, Qwant, Ecosia, Yahoo, SearXNG) über HKLM-Richtlinien für Chrome, Edge, Brave, Vivaldi, Opera und 2345 Browser + `policies.json` für Firefox/Waterfox
 - **Richtlinien-Bereinigung** — entfernt 2345-`DefaultSearchProvider*`-Werte aus der Registry
@@ -35,7 +35,7 @@
 Download von [Releases](https://github.com/retvil/Anti2345Vanced/releases):
 
 - **Windows** — `Anti2345Vanced.exe` (portabel, eine Datei, ~35 MB) — entfernt 2345 Browser und die 2345-Suche
-- **Windows** — `Anti2345Extended.exe` (portabel, eine Datei, ~35 MB) — Entfernung aller 2345-Produkte (2345 Disk, Punto-Switcher-Verlauf, systemweite Spuren, Store-Apps, 2345.DNS)
+- **Windows** — `Anti2345Extended.exe` (portabel, eine Datei, ~35 MB) — Entfernung aller 2345-Produkte (2345 Disk, ime-Switcher-Verlauf, systemweite Spuren, Store-Apps, 2345.DNS)
 
 Als **Administrator ausführen** — HKLM-Richtlinien und Registry-Bereinigung erfordern erhöhte Rechte.
 

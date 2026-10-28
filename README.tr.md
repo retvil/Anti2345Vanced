@@ -14,7 +14,7 @@
 
 ## Özellikler
 
-- **Ele geçirme tarayıcısı** — 40 vektörü tespit eder: kurulum yolları, kayıt defterindeki Uninstall girdileri, `UserChoice` ilişkilendirmesi, `StartMenuInternet` kayıtları, `Software\2345` anahtar ağaçları, `DefaultSearchProvider*` ilkeleri üzerinden ele geçirme, Chromium profillerinin `Preferences` ayarları, `Web Data` (SQLite) anahtar kelimeleri, Firefox `search.json.mozlz4`, legacy `SearchScopes`, autostart girdileri, zamanlanmış görevler, Windows hizmetleri, Punto Switcher, dosya ilişkilendirmeleri, 2345 Disk kabuk entegrasyonu, devre dışı otostart, App Paths, kısayollar, ProgramData/Roaming kalıntıları, hosts girdileri, güvenlik duvarı kuralları, URI protokolleri, tarayıcı eklentileri, ant2345.ru çerezleri, „birlikte aç“ ilişkilendirmeleri, Prefetch/WER izleri, Defender istisnaları, klavye düzenleri, IE başlangıç sayfası ele geçirmesi, başlangıç URL ilkeleri (`RestoreOnStartupURLs`), Firefox ana sayfası, IE bölge haritası, RegisteredApplications girdileri, MUICache izleri, %TEMP% yükleyicileri, Store uygulamaları (2345 Music, Alice), ürün dizinleri, yerel veri dizinleri, 2345.DNS
+- **Ele geçirme tarayıcısı** — 40 vektörü tespit eder: kurulum yolları, kayıt defterindeki Uninstall girdileri, `UserChoice` ilişkilendirmesi, `StartMenuInternet` kayıtları, `Software\2345` anahtar ağaçları, `DefaultSearchProvider*` ilkeleri üzerinden ele geçirme, Chromium profillerinin `Preferences` ayarları, `Web Data` (SQLite) anahtar kelimeleri, Firefox `search.json.mozlz4`, legacy `SearchScopes`, autostart girdileri, zamanlanmış görevler, Windows hizmetleri, IME Switcher, dosya ilişkilendirmeleri, 2345 Disk kabuk entegrasyonu, devre dışı otostart, App Paths, kısayollar, ProgramData/Roaming kalıntıları, hosts girdileri, güvenlik duvarı kuralları, URI protokolleri, tarayıcı eklentileri, ant2345.ru çerezleri, „birlikte aç“ ilişkilendirmeleri, Prefetch/WER izleri, Defender istisnaları, klavye düzenleri, IE başlangıç sayfası ele geçirmesi, başlangıç URL ilkeleri (`RestoreOnStartupURLs`), Firefox ana sayfası, IE bölge haritası, RegisteredApplications girdileri, MUICache izleri, %TEMP% yükleyicileri, Store uygulamaları (2345 Music, Alice), ürün dizinleri, yerel veri dizinleri, 2345.DNS
 - **Tek tıkla kaldırma** — her vektörün kendi remover'ı vardır; kilitli veritabanları dürüstçe raporlanır, çökme yok
 - **Sabit arama politikası** — varsayılan aramayı 10 arama motorundan birine (Google, Bing, DuckDuckGo, Brave Search, Startpage, Mojeek, Qwant, Ecosia, Yahoo, SearXNG) kilitler: Chrome, Edge, Brave, Vivaldi, Opera ve 2345 Browser için HKLM ilkeleri + Firefox/Waterfox için `policies.json`
 - **Politika temizliği** — 2345 `DefaultSearchProvider*` değerlerini kayıt defterinden temizler
@@ -35,7 +35,7 @@
 [Releases](https://github.com/retvil/Anti2345Vanced/releases) sayfasından indirin:
 
 - **Windows** — `Anti2345Vanced.exe` (taşınabilir, tek dosya, ~35 MB) — 2345 Browser ve 2345 Arama kaldırma
-- **Windows** — `Anti2345Extended.exe` (taşınabilir, tek dosya, ~35 MB) — tüm 2345 ürünlerinin kaldırılması (2345 Disk, Punto Switcher geçmişi, sistem genelinde izler, Store uygulamaları, 2345.DNS)
+- **Windows** — `Anti2345Extended.exe` (taşınabilir, tek dosya, ~35 MB) — tüm 2345 ürünlerinin kaldırılması (2345 Disk, IME Switcher geçmişi, sistem genelinde izler, Store uygulamaları, 2345.DNS)
 
 **Yönetici olarak** çalıştırın — HKLM ilkeleri ve kayıt defteri temizliği yükseltilmiş haklar gerektirir.
 

@@ -26,7 +26,7 @@
 <details>
 <summary>主窗口</summary>
 
-![Anti2345Vanced 主窗口](docs/screenshot.png)
+![Anti2345Vanced 主窗口](screenshot.png)
 
 </details>
 
@@ -81,7 +81,7 @@ python main.py
 
 ## 许可证
 
-MIT — 见 [LICENSE](LICENSE)。
+MIT — 见 [LICENSE](../LICENSE)。
 
 
 

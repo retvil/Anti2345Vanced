@@ -26,7 +26,7 @@
 <details>
 <summary>Okno główne</summary>
 
-![Okno główne Anti2345Vanced](docs/screenshot.png)
+![Okno główne Anti2345Vanced](screenshot.png)
 
 </details>
 
@@ -81,7 +81,7 @@ Jeśli narzędzie uwolniło Cię od 2345a — możesz wesprzeć rozwój:
 
 ## Licencja
 
-MIT — zob. [LICENSE](LICENSE).
+MIT — zob. [LICENSE](../LICENSE).
 
 
 

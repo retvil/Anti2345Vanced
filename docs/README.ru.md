@@ -26,7 +26,7 @@
 <details>
 <summary>Главное окно</summary>
 
-![Главное окно Anti2345Vanced](docs/screenshot.png)
+![Главное окно Anti2345Vanced](screenshot.png)
 
 </details>
 
@@ -81,7 +81,7 @@ python main.py
 
 ## Лицензия
 
-MIT — см. [LICENSE](LICENSE).
+MIT — см. [LICENSE](../LICENSE).
 
 
 

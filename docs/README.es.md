@@ -26,7 +26,7 @@
 <details>
 <summary>Ventana principal</summary>
 
-![Ventana principal de Anti2345Vanced](docs/screenshot.png)
+![Ventana principal de Anti2345Vanced](screenshot.png)
 
 </details>
 
@@ -81,7 +81,7 @@ Si la herramienta te libró de 2345, puedes apoyar el desarrollo:
 
 ## Licencia
 
-MIT — ver [LICENSE](LICENSE).
+MIT — ver [LICENSE](../LICENSE).
 
 
 

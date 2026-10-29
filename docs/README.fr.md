@@ -26,7 +26,7 @@
 <details>
 <summary>Fenêtre principale</summary>
 
-![Fenêtre principale d'Anti2345Vanced](docs/screenshot.png)
+![Fenêtre principale d'Anti2345Vanced](screenshot.png)
 
 </details>
 
@@ -81,7 +81,7 @@ Si l'outil t'a débarrassé de 2345, tu peux soutenir le développement :
 
 ## Licence
 
-MIT — voir [LICENSE](LICENSE).
+MIT — voir [LICENSE](../LICENSE).
 
 
 

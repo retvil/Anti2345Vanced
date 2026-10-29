@@ -26,7 +26,7 @@
 <details>
 <summary>Ana pencere</summary>
 
-![Anti2345Vanced ana penceresi](docs/screenshot.png)
+![Anti2345Vanced ana penceresi](screenshot.png)
 
 </details>
 
@@ -81,7 +81,7 @@ Araç sizi 2345'ten kurtardıysa, geliştirmeyi destekleyebilirsiniz:
 
 ## Lisans
 
-MIT — bkz. [LICENSE](LICENSE).
+MIT — bkz. [LICENSE](../LICENSE).
 
 
 

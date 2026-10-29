@@ -26,7 +26,7 @@
 <details>
 <summary>Hauptfenster</summary>
 
-![Anti2345Vanced Hauptfenster](docs/screenshot.png)
+![Anti2345Vanced Hauptfenster](screenshot.png)
 
 </details>
 
@@ -81,7 +81,7 @@ Wenn dich das Tool von 2345 befreit hat, kannst du die Entwicklung unterstützen
 
 ## Lizenz
 
-MIT — siehe [LICENSE](LICENSE).
+MIT — siehe [LICENSE](../LICENSE).
 
 
 

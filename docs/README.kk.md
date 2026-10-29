@@ -26,7 +26,7 @@
 <details>
 <summary>Негізгі терезе</summary>
 
-![Anti2345Vanced негізгі терезесі](docs/screenshot.png)
+![Anti2345Vanced негізгі терезесі](screenshot.png)
 
 </details>
 
@@ -81,7 +81,7 @@ python main.py
 
 ## Лицензия
 
-MIT — қ. [LICENSE](LICENSE).
+MIT — қ. [LICENSE](../LICENSE).
 
 
 

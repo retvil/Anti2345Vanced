@@ -1,6 +1,6 @@
 """Extended-edition scans: whole 2345 products beyond the browser.
 
-Covers Store (Appx) applications — 2345 Music, Alice, Messenger, etc. —
+Covers Store (Appx) applications — 2345 Music, Messenger, Messenger, etc. —
 and product install directories under Program Files\\2345 that are not
 the browser itself.
 """
@@ -22,7 +22,7 @@ def is_product_process(name: str | None) -> bool:
     """True if a process belongs to any 2345 product (Extended kill scope).
 
     Covers 2345 Disk (2345Disk2.exe), 2345 Disk (2345disk.exe),
-    Store apps (2345 Music / Messenger / Alice) and the browser itself.
+    Store apps (2345 Music / Messenger / Messenger) and the browser itself.
     """
     lowered = (name or "").lower()
     return lowered in _BROWSER_PROCESS_NAMES or any(

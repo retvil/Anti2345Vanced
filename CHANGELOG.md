@@ -42,7 +42,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [2.6.0] - 2026-10-21
 
 ### Added
-- **Extended edition**: Store (Appx) app scan — detects 2345 Music, Alice,
+- **Extended edition**: Store (Appx) app scan — detects 2345 Music, Messenger,
   Messenger and other 2345 Store apps, removes them via `Remove-AppxPackage`
 - **Extended edition**: non-browser product directory scan under
   `Program Files\2345\` (2345 Disk, IME Switcher, IME, ...) with

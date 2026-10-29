@@ -158,7 +158,7 @@
 
 ## [2.0.0] - 2026-10-20
 
-Форк [TheCawa/AntiYandex](https://github.com/TheCawa/AntiYandex) 1.3.
+Форк [retvil/AntiYandexVanced](https://github.com/retvil/AntiYandexVanced) 1.3.
 
 ### Додано
 - **Сканер hijack пошуку** — детектить 11 векторів, якими 2345
@@ -205,7 +205,7 @@
 
 ## [1.3.0] - upstream
 
-База [TheCawa/AntiYandex](https://github.com/TheCawa/AntiYandex):
+База [retvil/AntiYandexVanced](https://github.com/retvil/AntiYandexVanced):
 - Завершення процесів 2345.Браузера (`browser.exe`, `ant2345.exe`)
 - Пошук шляхів встановлення
 - Чистка записів Uninstall у реєстрі

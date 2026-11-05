@@ -62,7 +62,7 @@ def build_parser() -> argparse.ArgumentParser:
 
 
 def _cmd_scan(profile: str) -> list[str]:
-    import antant2345_detect
+    import ant2345_detect
 
     return ant2345_detect.scan_all(profile)
 
@@ -70,7 +70,7 @@ def _cmd_scan(profile: str) -> list[str]:
 def _cmd_apply(args) -> int:
     import app
     import backup
-    import antant2345_detect
+    import ant2345_detect
     import policies
     import engines
 
@@ -80,8 +80,7 @@ def _cmd_apply(args) -> int:
     for proc in psutil.process_iter(["name"]):
         try:
             name = (proc.info.get("name") or "").lower()
-            if name in {'2345explorer.exe', '2345cloud.exe'}:
-                proc.kill()
+            if name in ({"2345explorer.exe"}): proc.kill()
         except Exception:
             pass
 
@@ -182,6 +181,7 @@ def main(profile: str, argv: list[str] | None = None) -> int:
     # no action flags: just help
     parser.print_help()
     return 0
+
 
 
 

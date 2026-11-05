@@ -25,7 +25,7 @@ import restore
 import translations
 import updater
 import watchdog
-import ant2345_detect as _detect2345
+import antant2345_detect
 
 FLAG_LINE = ("🇬🇧 English | 🇷🇺 Русский | 🇺🇦 Українська | 🇰🇿 Қазақша | 🇩🇪 Deutsch | 🇫🇷 Français | 🇪🇸 Español | 🇵🇱 Polski | 🇹🇷 Türkçe | 🇨🇳 中文")
 LANG_ICON_ITEMS: list[tuple[str, str, str]] = [
@@ -38,7 +38,7 @@ APP_VERSION = "1.2.0"
 APP_AUTHOR = "Nod33Eset"
 GITHUB_URL = "https://github.com/retvil/Anti2345Vanced"
 
-BAIDU_PATHS = 2345_detect.BAIDU_PATHS
+BAIDU_PATHS = ant2345_detect.BAIDU_PATHS
 
 TEXT_MUTED = "#6b7280"
 STATUS_COLORS = {
@@ -82,7 +82,7 @@ def run_in_ui(fn):
     root.after(0, fn)
 
 def check_registry_for_baidu():
-    found = 2345_detect.scan_uninstall_entries()
+    found = ant2345_detect.scan_uninstall_entries()
     if found:
         update_status(t("reg_found"), STATUS_COLORS["ok"])
         messagebox.showinfo(t("title"), t("reg_found"))
@@ -155,7 +155,7 @@ def uninstall_baidu_browser():
             run_in_ui(fail_other)
             return
         if not os.path.exists(target):
-            2345_detect.remove_uninstall_entries()
+            ant2345_detect.remove_uninstall_entries()
             backup.log_action(f"uninstall_baidu_browser: removed {target}")
             def done():
                 update_status(t("delete_success"), STATUS_COLORS["ok"])
@@ -180,7 +180,7 @@ def scan_hijacks():
     """Scan the profile's Baidu hijack vectors, show findings, offer selection."""
     def task():
         run_in_ui(lambda: update_status(t("status_searching"), STATUS_COLORS["info"]))
-        findings = 2345_detect.scan_all(PROFILE)
+        findings = ant2345_detect.scan_all(PROFILE)
         def done():
             global last_findings
             last_findings = findings
@@ -224,7 +224,7 @@ def remove_hijacks():
 
 def _remove_selected_task(selected: list[str]) -> None:
     """Background removal of the user-selected findings + result reporting."""
-    removed, failed = 2345_detect.remove_selected(selected)
+    removed, failed = ant2345_detect.remove_selected(selected)
     def done():
         if removed:
             update_status(t("hijack_removed").format(len(removed)), STATUS_COLORS["ok"])
@@ -296,7 +296,7 @@ def _open_selection_dialog(findings: list[str]) -> None:
         if not selected:
             messagebox.showinfo(t("select_title"), t("select_none"), parent=dialog)
             return
-        if any(f.startswith(2345_detect.CONSENT_PREFIXES) for f in selected):
+        if any(f.startswith(ant2345_detect.CONSENT_PREFIXES) for f in selected):
             if not messagebox.askyesno(t("title"), t("consent_confirm"), parent=dialog):
                 return
         running = _running_browsers()
@@ -685,6 +685,8 @@ def run(profile_name: str) -> None:
     root.after(800, check_update_ui)
 
     root.mainloop()
+
+
 
 
 

@@ -62,15 +62,15 @@ def build_parser() -> argparse.ArgumentParser:
 
 
 def _cmd_scan(profile: str) -> list[str]:
-    import ant2345_detect as _detect2345
+    import antant2345_detect
 
-    return 2345_detect.scan_all(profile)
+    return ant2345_detect.scan_all(profile)
 
 
 def _cmd_apply(args) -> int:
     import app
     import backup
-    import ant2345_detect as _detect2345
+    import antant2345_detect
     import policies
     import engines
 
@@ -90,8 +90,8 @@ def _cmd_apply(args) -> int:
     if args.consent_user_data:
         selected = findings
     else:
-        selected = [f for f in findings if not f.startswith(2345_detect.CONSENT_PREFIXES)]
-    removed, failed = 2345_detect.remove_selected(selected)
+        selected = [f for f in findings if not f.startswith(ant2345_detect.CONSENT_PREFIXES)]
+    removed, failed = ant2345_detect.remove_selected(selected)
     print(f"removed: {len(removed)} failed: {len(failed)}")
 
     # Apply policy
@@ -182,4 +182,6 @@ def main(profile: str, argv: list[str] | None = None) -> int:
     # no action flags: just help
     parser.print_help()
     return 0
+
+
 

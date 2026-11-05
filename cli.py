@@ -62,7 +62,7 @@ def build_parser() -> argparse.ArgumentParser:
 
 
 def _cmd_scan(profile: str) -> list[str]:
-    import 2345_detect
+    import ant2345_detect as _detect2345
 
     return 2345_detect.scan_all(profile)
 
@@ -70,7 +70,7 @@ def _cmd_scan(profile: str) -> list[str]:
 def _cmd_apply(args) -> int:
     import app
     import backup
-    import 2345_detect
+    import ant2345_detect as _detect2345
     import policies
     import engines
 
@@ -182,3 +182,4 @@ def main(profile: str, argv: list[str] | None = None) -> int:
     # no action flags: just help
     parser.print_help()
     return 0
+

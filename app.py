@@ -25,7 +25,7 @@ import restore
 import translations
 import updater
 import watchdog
-import 2345_detect
+import ant2345_detect as _detect2345
 
 FLAG_LINE = ("🇬🇧 English | 🇷🇺 Русский | 🇺🇦 Українська | 🇰🇿 Қазақша | 🇩🇪 Deutsch | 🇫🇷 Français | 🇪🇸 Español | 🇵🇱 Polski | 🇹🇷 Türkçe | 🇨🇳 中文")
 LANG_ICON_ITEMS: list[tuple[str, str, str]] = [
@@ -685,6 +685,7 @@ def run(profile_name: str) -> None:
     root.after(800, check_update_ui)
 
     root.mainloop()
+
 
 
 
